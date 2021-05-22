@@ -1,0 +1,133 @@
+#title{
+    background-color: rgb(74, 187, 187);
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+    align-items: center;
+}
+h1 {  font-family: 'Montserrat-bold'; 
+     font-size: 3rem; 
+      line-height: 1.5; 
+       font-weight: 900;
+       padding-bottom: 5%;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+body{
+    font-family: 'Montserrat';
+
+}
+.navbar{
+    padding-bottom: 6rem
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;   
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrate-light';
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    
+    
+}
+#col{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+#con-fluid{
+    padding-bottom: 25%;
+}
+#pt{
+    color: gray;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'montserrat-bold';
+}
+.fas{
+    color: rgb(2, 189, 192);
+    margin-bottom: 3%;
+}
+.fas:hover{
+    color: rgb(130, 247, 247) ;
+}
+#testimonials{
+    background-color: rgb(74, 187, 187);
+    padding: 1% 15%;
+    text-align: center;
+    
+
+}
+.testimonials-img{
+    border-radius: 100%;
+    width: 35%;
+    margin: 2rem 0;
+}
+#press{
+    background-color:rgb(74, 187, 187) ;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 30%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#pricing-coloumn{
+    padding: 3% 2%;
+}
+@media (max-width:768px){
+    .title-img{
+        visibility: hidden;
+      
+        
+    }
+    #title{
+        align-items: center;
+    }
+}
+#cta{
+    background-color: rgb(74, 187, 187);
+    text-align: center;
+    padding: 8%;
+    
+}
+#footer{
+    padding: 2%;
+    text-align: center;
+    height: 3%;
+    
+}
+#fotter:hover{
+    color: rgb(52, 110, 114);
+}
